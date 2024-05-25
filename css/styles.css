@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700&family=Open+Sans:wght@300;400;500&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
-
 
 /* #### Framework #### */
 
@@ -19,7 +19,7 @@ html,body{
 }
 
 .bg{
-    background: url('image/bg-2.png') no-repeat;
+    background: url('../img/ImagemT.jpg') no-repeat;
     background-size: cover;
     width: 100%;
     height: auto;
@@ -31,6 +31,7 @@ html,body{
     width: 100%;
     height: auto;
 }
+
 
 .container{
     max-width: 1680px;
@@ -128,6 +129,28 @@ button:hover{
     color: #fff;
     transform: scale(1.10);
 }
+
+.add-to-cart {
+    background-color: #28a745; /* Cor de fundo verde */
+    color: white; /* Cor do texto branca */
+    border: none; /* Sem borda */
+    padding: 10px 20px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+    text-decoration: none; /* Sem sublinhado */
+    display: inline-block; /* Display inline-block */
+    font-size: 16px; /* Tamanho da fonte */
+    margin-left: 10px; /* Espaçamento à esquerda para separação do outro botão */
+    cursor: pointer; /* Cursor de ponteiro */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+.add-to-cart:hover {
+    background-color: white; /* Cor de fundo ao passar o mouse */
+    color: #28a745; /* Cor do texto ao passar o mouse */
+    border: 1px solid #28a745; /* Borda verde ao passar o mouse */
+}
+
+
 
 .content{
     display: flex;
@@ -239,6 +262,7 @@ body::-webkit-scrollbar-thumb {
 
 .desktop-menu ul{
     display: flex;
+    margin-left: 70px;
 }
 
 .desktop-menu ul li{

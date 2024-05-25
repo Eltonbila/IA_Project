@@ -5,61 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Loja Virtual</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
 </head>
 <body>
 
     <!--Aqui começa o Header-->
-
     <header class="max-width bg" id="Home">
-            <div class="container">
-                <nav class="menu">
-                    <div class="logo"></div>
-                    <div class="desktop-menu">
-                        <ul>
-                            <li><a href="#Home">Home</a></li>
-                            <li><a href="#About">Novidades</a></li>
-                            <li><a href="#Service">Destaque</a></li>
-                            <li><a href="#Contact">Contato</a></li>
-                        </ul>
-                    </div>
+        <div class="container">
+            <nav class="menu">
+                <div class="logo"></div>
+                <div class="desktop-menu">
+                    <ul>
+                        <li style="margin-top: 62px;"><a href="#Home" >Home</a></li>
+                        <li style="margin-top: 62px;"><a href="#About">Novidades</a></li>
+                        <li style="margin-top: 62px;"><a href="#Service">Destaque</a></li>
+                        <li style="margin-top: 62px;"><a href="#Contact">Contato</a></li>
+                        <li>
+                            <a href="#" class="cart-icon"><i class="fas fa-shopping-cart"></i></a>
+                            <span class="cart-count" style="margin-bottom: 7px;">0</span>
+                            <a href="teste.html"><button class="buy-now" style="margin-bottom: 60px;"> Comprar Agora</button></a>
+                        </li>
+                    </ul>
+                </div>
 
-                    <div class="mobile-menu" onclick="myFunction()">
-                        <i class="fa fa-bars"></i>
-                        <ul id="myLinks">
-                            <li><a href="#Home">Home</a></li>
-                            <li><a href="#About">Novidades</a></li>
-                            <li><a href="#Service">Destaque</a></li>
-                            <li><a href="#Contact">Contato</a></li>
-                        </ul>
-                    </div>
-                </nav>
-                <div class="call">
-                    <div class="left">
-                        <h1 class="color-azul text-gd">Novas Coleções</h1>
-                        <p class="color-azul text-pq">Lorem ipsum dolor sit amet, consectetur 
-                            adipiscing elit, sed do eiusmod tempor incididunt ut labore 
-                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <button>Compre Agora</button>
-                    </div>
-                    <div class="right">
-                        <div class="imagem">
-                            <img src="image/r9.png" alt="">
-                        </div>
-    
+                <div class="mobile-menu" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                    <ul id="myLinks">
+                        <li><a href="#Home">Home</a></li>
+                        <li><a href="#About">Novidades</a></li>
+                        <li><a href="#Service">Destaque</a></li>
+                        <li><a href="#Contact">Contato</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="call">
+                <div class="left">
+                    <h1 class="color-azul text-gd">Novas Coleções</h1>
+                    <p class="color-azul text-pq">Lorem ipsum dolor sit amet, consectetur 
+                        adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <button>Compre Agora</button>
+                </div>
+                <div class="right">
+                    <div class="imagem" style="margin-right: 15px;">
+                        <img src="../img/background.jpg" alt="">
                     </div>
                 </div>
             </div>
-            <button id="back-to-top">^</button>
+        </div>
+        <button id="back-to-top">^</button>
     </header>
 
     <!--Aqui Termina o Header-->
 
     <!--Aqui começa o About-->
-
     <section class="max-width bg2" id="About">
         <div class="container">
             <div class="titulo">
@@ -100,7 +102,6 @@
     <!--Aqui Termina o About-->
 
     <!--Aqui começa o Service-->
-
     <section class="max-width bg" id="Service">
         <div class="container">
             <div class="content">
@@ -110,25 +111,26 @@
                         <div class="text-titulo">Promoções</div>
                     </div>
                 </div>
-                    <input type="radio" name="slider" id="item-1" checked>
-                    <input type="radio" name="slider" id="item-2">
-                    <input type="radio" name="slider" id="item-3">
-                    <div class="cards">
-                        <label class="card" for="item-1" id="song-1">
-                            <img src="image/p1.jpg" alt="">
-                            <button>Comprar Agora</button>
-                        </label>
-
-                        <label class="card" for="item-2" id="song-2">
-                            <img src="image/p2.jpg">
-                            <button>Comprar Agora</button>
-                        </label>
-
-                        <label class="card" for="item-3" id="song-3">
-                            <img src="image/p3.jpg">
-                            <button>Comprar Agora</button>
-                        </label>
-                    </div>
+                <input type="radio" name="slider" id="item-1" checked>
+                <input type="radio" name="slider" id="item-2">
+                <input type="radio" name="slider" id="item-3">
+                <div class="cards">
+                    <label class="card" for="item-1" id="song-1">
+                        <img src="../img/VR.jpg" alt="">
+                        <button><a href="teste.html" style="color: white; text-decoration: none;">Comprar Agora</a></button>
+                        <button class="add-to-cart">Adicionar ao Carrinho</button>
+                    </label>
+                    <label class="card" for="item-2" id="song-2">
+                        <img src="../img/PS5.jpg">
+                        <button><a href="teste.html" style="color: white; text-decoration: none;">Comprar Agora</a></button>
+                        <button class="add-to-cart">Adicionar ao Carrinho</button>
+                    </label>
+                    <label class="card" for="item-3" id="song-3">
+                        <img src="../img/Smartwatch.jpg">
+                        <button><a href="teste.html" style="color: white; text-decoration: none;">Comprar Agora</a></button>
+                        <button class="add-to-cart">Adicionar ao Carrinho</button>
+                    </label>
+                </div>
             </div>
         </div>
     </section>
@@ -136,7 +138,6 @@
     <!--Aqui Terminal o Service-->
 
     <!--Aqui Começa o Contact-->
-
     <section class="max-width bg2" id="Contact">
         <div class="container">
             <div class="titulo">
@@ -185,35 +186,50 @@
     <!--Aqui Termina o Contact-->
 
     <!--Aqui Começa o footer-->
-
     <footer>
-        <div class="container">
+        <div class="container" style="margin-top: 50px;">
             <img src="image/logo-roupa.png" alt="">
             <p class="text-pq">Copyright © 2022 <span class="color-laranja">FRONT</span> All Rights Reserved</p>
             <p class="text-pq">Tel: 5898-5874</p>
         </div>
     </footer>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script>
-
         // Menu-Mobile
-
-       function myFunction() {
+        function myFunction() {
             var x = document.getElementById("myLinks");
             if (x.style.display === "block") {
                 x.style.display = "none";
             } else {
                 x.style.display = "block";
             }
-}
-        // Scrollbar Personalizado
+        }
 
-            var btn = document.querySelector("#back-to-top");
-            btn.addEventListener("click", function() {
-                window.scrollTo(0, 0);
+        // Scrollbar Personalizado
+        var btn = document.querySelector("#back-to-top");
+        btn.addEventListener("click", function() {
+            window.scrollTo(0, 0);
+        });
+
+        // Função de adicionar ao carrinho
+        document.addEventListener('DOMContentLoaded', function() {
+            const addToCartButtons = document.querySelectorAll('.add-to-cart');
+            const cartCountElement = document.querySelector('.cart-count');
+            let cartCount = 0;
+
+            addToCartButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    cartCount++;
+                    cartCountElement.textContent = cartCount;
+                    const itemId = this.parentElement.getAttribute('for');
+                    console.log(`Item ${itemId} adicionado ao carrinho.`);
+                    // Aqui você pode adicionar a lógica para realmente adicionar o item ao carrinho
+                });
             });
+        });
     </script>
 </body>
 </html>
